@@ -20,7 +20,7 @@
         <img class="header__logo" src='image/logo.svg'>
         <div class="header__controls">
             <a class="header__contacts" href="#contacts">Контакты</a>
-            <button class="header__button">Заказать</button>
+            <button class="header__button contact-button" href="#form">Заказать</button>
         </div>
     </header>
     <section class="about">
@@ -28,14 +28,14 @@
         <div class="about__info animate__animated animate__fadeInLeft animate__slow">
             <h1 class="about__title">Солнечные панели GreenRobotic</h1>
             <p class="about__subtitle">Производите дешёвую экологически чистую электроэнергию из солнечного света</p>
-            <button class="about__button">Узнать подробнее<i class="fas fa-angle-right"></i></button>
+            <button class="about__button more-button" href="#about">Узнать подробнее<i class="fas fa-angle-right"></i></button>
         </div>
         <div class="about__images animate__animated animate__fadeInRight animate__slow">
             <img class="about__sun—image" src="image/sun.png">
             <img class="about__image" src="image/solar-panel.png">
         </div>
     </section>
-    <section class="features">
+    <section class="features" id="about">
         <div class="cards">
             <div class="card">
                 <div class="card__logo yellow">
@@ -60,7 +60,7 @@
         <div class="features__border"></div>
         <div class="features__feedback">
     <div class="features__feedback-left">
-      <h2>Нам доверяет<br>5000+ счастливых клиентов</h2>
+      <h2>Нам доверяет<br><div class="features__clients-count">5000+</div>счастливых клиентов</h2>
         <p>Мы помогли тысячам людей перейти на зеленую энергию.<br>После заказа мы позаботимся обо всем: доставка панелей, проект, установка, помощь в использовании</p>
     </div>
     <div class="features__feedback-right">
@@ -96,7 +96,7 @@
         </div>
     </div>
     </section>
-    <section class="form">
+    <section class="form" id="form">
         <div class="form__containter">
             <h1 class="form__title">Оставьте свои контакты</h1>
             <p class="form__subtitle">Поможем подобрать модель.<br>Выбрать удобный вариант доставки и
@@ -121,14 +121,14 @@
                         <option value="10–30">10 000&#8381 – 30 000&#8381</option>
                         <option value="30–60">30 000&#8381 – 60 000&#8381</option>
                         <option value="60–100">60 000&#8381 – 100 000&#8381</option>
-                        <option value="100+">100 000&#8381</option>
+                        <option value="other">Другое</option>
                     </select>
                 </div>
                 <button type="submit" class="form__submit">Отправить заявку</button>
             </form>
         </div>
     </section>
-    <footer class="footer">
+    <footer class="footer" id="contacts">
         <div class="footer__container">
             <div class="footer__group">
                 <h3 class="footer__title">Позвонить нам:</h3>
@@ -155,5 +155,6 @@
         <div class="footer__copyright">GreenCorp &copy; 2022.</div>
     </footer>
     <script src='js/canvas.js'></script>
+    <script src="js/animations.js"></script>
 </body>
 </html>
