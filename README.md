@@ -8,4 +8,5 @@
 * Отрисовка canvas
 * [Ссылка на проект](https://skredmi.github.io/green-corp-landing/)
 
+![green](https://user-images.githubusercontent.com/63904240/209444922-5f0d4f30-11c2-47fe-8dd9-2458e3265c96.JPG)
 
